@@ -1,0 +1,11 @@
+<div class="flex-container">
+    
+    <div class="flex-child"><h1>Original</h1>
+        <app-item *ngFor="let eachItem of mySongs" [song]="eachItem" (itemSaved)="updateItems()"></app-item>
+    </div>
+    <div class="flex-child"><h1>List</h1>
+        <app-item *ngFor="let eachItem of mySavedList" [song]="eachItem" (click)="removeSong(eachItem)"></app-item>
+
+    </div>
+
+</div>

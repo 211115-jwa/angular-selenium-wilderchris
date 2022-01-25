@@ -1,0 +1,8 @@
+<div>
+    <h3>{{song.name}}</h3>
+    <p>{{song.description}}</p>
+    <h5>${{song.price}}</h5>
+    <!-- (click) sets up the event binding. "item" here is referencing the "item" defined in the *ngFor above. -->
+    <button type="button" (click)="saveItem(song)">Save</button>
+</div>
+

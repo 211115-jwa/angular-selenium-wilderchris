@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(134, 134, 119);
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+h1{
+    text-align: center;
+    color: coral;
+}
